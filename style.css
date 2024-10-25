@@ -1,0 +1,100 @@
+
+
+body{
+    background-image: url(./img/winter_bg3.jpg);
+    border: solid black 1px;
+
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 20vh 30vh 97vh 20vh;
+    gap: 10px;
+
+
+}
+
+header{
+    background-color: burlywood;
+    border: black solid 3px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+
+.tomte2{
+    column-count: 3/4;
+}
+
+#list{
+    border: yellowgreen solid 3px;
+    background-color: cornsilk;
+
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 70%;
+    padding-right: 100px;
+
+}
+
+#list1{
+    background-color: black;
+    color: aqua;
+}
+
+#list2{
+    background-color:forestgreen;
+    color:dodgerblue;
+}
+
+
+#kalender{
+    background-color: #F6E9DC;
+    border: gray solid 3px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 15vh);
+    height: 100%;
+}
+
+h2{
+    border: red solid 3px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: larger;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+h1{
+    border: red solid 3px;
+    background-color: lightgray;
+    font-size: larger;
+}
+
+
+#one{
+    color: red;
+}
+#three{
+    color: red;
+}
+
+.ye{
+    height: 0%;
+}
+
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
